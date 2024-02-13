@@ -1,0 +1,67 @@
+.ai-container {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  
+  .ai-card {
+    background-color: #3498db;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: calc(
+      40% - 20px
+    ); /* Set the width to 40% minus margin for two cards in a row */
+    text-align: center;
+  }
+  
+  .divML {
+    background-color: black;
+  }
+  
+  /* Media query for screens up to 600px */
+  @media (max-width: 600px) {
+    .ai-card {
+      width: 100%; /* Set the width to 100% for smaller screens */
+    }
+  }
+  
+  /* Your existing styles for buttons and links */
+  
+  .aibtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 25vh;
+  }
+  
+  .mlbtn,
+  .aispanish {
+    margin: 10px; /* Add margin for space between buttons */
+  }
+  
+  .mlbtn {
+    background-color: #3498db; /* Blue color for Move to ML button */
+    color: #ffffff;
+    /* Add other styles for the Move to ML button */
+  }
+  
+  .aispanish {
+    background-color: #e74c3c; /* Red color for Change language to Spanish button */
+    color: #ffffff;
+    /* Add other styles for the Change language to Spanish button */
+  }
+  
+  /* Media query for screens up to 600px */
+  @media (max-width: 600px) {
+    .aibtn {
+      flex-direction: column; /* Stack buttons vertically on smaller screens */
+      height: auto;
+    }
+  }
+  

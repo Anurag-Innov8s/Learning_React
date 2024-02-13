@@ -1,0 +1,66 @@
+/* Thankyou.css */
+body{
+    background-color: black;
+}
+.tk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.tk-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tk-image h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.tk-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tkbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+/* Thankyou.css */
+
+.tk-image h1 {
+    font-size: 6em; /* Adjust the desired font size */
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .tk-image h1 {
+        font-size: 3.5em; /* Adjust the font size for smaller screens */
+    }
+}
+
+.tkbtn:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 600px) {
+    .tk-image h1 {
+        font-size: 2em;
+    }
+
+    .tkbtn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}

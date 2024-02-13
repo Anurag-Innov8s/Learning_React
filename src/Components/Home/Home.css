@@ -1,0 +1,68 @@
+/* Home.css */
+
+.center-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(255, 200, 0);
+}
+
+.homebutton {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 15px 30px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+  width: 45%; /* Adjusted width for two buttons in a row */
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out;
+}
+
+.homebutton:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.centerbtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Add margin to the Switch to Spanish button */
+}
+
+.switch-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 30px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  text-align: center;
+  width: 45%; /* Adjusted width for the Switch to Spanish button */
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out;
+}
+
+.switch-btn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+/* Media query for screens up to 600px */
+@media (max-width: 600px) {
+  .center-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .homebutton {
+    width: 100%;
+  }
+
+  .switch-btn {
+    width: 100%;
+    margin-top: 10px; /* Add margin to the Switch to Spanish button on smaller screens */
+  }
+}
