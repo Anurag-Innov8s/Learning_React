@@ -1,5 +1,5 @@
 import React from 'react'
-import './Home.css'
+// import './HomeS.css'
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
                 </Link>
             </div>
             <div className='homebutton'>
-                <h2>Comienza con Aprendizaje Automático</h2>
+                <h2>Comienza Aprendizaje Automático</h2>
                 <Link to={"/read/Ml/spanish"}>
                     <button>Aprendizaje Automático</button>
                 </Link>

@@ -18,7 +18,7 @@ const Home = () => {
                 </Link>
             </div>
             <div className='homebutton'>
-                <h2>Get started with Artificial Neural Network</h2>
+                <h2>Get started with Neural Network</h2>
                 <Link to={"/read/ann"}>
                     <button>Artificial Neural Network</button>
                 </Link>
